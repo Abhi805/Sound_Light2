@@ -117,7 +117,7 @@ export default function Home() {
             { img: "/assets/brand.jpg", text: "BRAND EVENTS" },
 
             { img: "/assets/goverment.webp", text: "GOVT. EVENTS" },
-            { img: "/assets/corporatemeets.jpg", text: "CORP. EVENTS" },
+            { img: "/assets/corp2.webp", text: "CORP. EVENTS" },
           ].map((item, index) => (
             <div className="col-md-3 position-relative you" key={index}>
               <img
@@ -143,7 +143,7 @@ export default function Home() {
           {/* First Column (Single Large Image) */}
           <div className="col-md-6 p-0">
             <img
-              src="/assets/program-2.jpg"
+              src="/assets/liveconsert.webp"
               alt="Grand Show 1"
               className="img-fluid w-100  img4 "
             />
@@ -152,12 +152,12 @@ export default function Home() {
           {/* Second Column (Two Smaller Images) */}
           <div className="col-md-6 d-flex flex-column p-0">
             <img
-              src="/assets/program-1.jpg"
+              src="/assets/lagg2.jpg"
               alt="Grand Show 2"
               className="img-fluid w-100 img5 "
             />
             <img
-              src="/assets/images14.jpg"
+              src="/assets/lagg.jpg"
               alt="Grand Show 3"
               className="img-fluid w-100 img6"
             />

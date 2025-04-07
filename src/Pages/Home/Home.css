@@ -2,12 +2,7 @@
   width: 100%;
   height: 850px;
 }
-.pad {
-  padding-left: 1px;
-  padding-right: 1px;
-  height: 100%;
-  width: 100%;
-}
+
 
 .pad2 {
   position: absolute;
@@ -228,6 +223,24 @@ justify-content: center;
 
 
 
+/* .pad {
+  padding-left: 1px;
+  padding-right: 1px;
+  height: 100%;
+  width: 100%;
+} */
+
+
+
+
+
+
+.pad {
+  padding-left: 1vw;  
+  padding-right: 1vw;
+  height: auto;  /* Height will adjust as per content */
+  width: 100%;
+}
 
 
 
@@ -242,4 +255,126 @@ justify-content: center;
     }
   }
   
+  .hap {
+    font-size: 100px;
+    font-weight: 700;
+    display: inline-block;
+    transform: scale(0.9, 1.2);
+    letter-spacing: 12px;
+  }
+  
+  /* Tablet (max-width: 1024px) */
+  @media (max-width: 1024px) {
+    .hap {
+      font-size: 55px;
+      letter-spacing: 8px;
+    }
+  }
+  
+  /* Mobile (max-width: 768px) */
+  @media (max-width: 768px) {
+    .hap {
+      font-size:35px;
+      letter-spacing: 5px;
+    }
+  }
+  
+  /* Small Mobile (max-width: 480px) */
+  @media (max-width: 480px) {
+    .hap {
+      font-size: 35px;
+      letter-spacing: 3px;
+    }
+  }
+  
 
+  .way {
+    font-size: 70px;
+    line-height: 0.9em;
+  }
+  
+  /* Tablet (max-width: 1024px) */
+  @media (max-width: 1024px) {
+    .way {
+      text-align: center;
+      font-size: 55px;
+      line-height: 1em;
+    }
+  }
+  
+  /* Mobile (max-width: 768px) */
+  @media (max-width: 768px) {
+    .way {
+      text-align: center;
+      font-size: 40px;
+      line-height: 1.1em;
+    }
+  }
+  
+  /* Small Mobile (max-width: 480px) */
+  @media (max-width: 480px) {
+    .way {
+      text-align: center;
+      font-size: 30px;
+      line-height: 1.2em;
+    }
+  }
+  
+
+
+  
+  @media (max-width: 980px) {
+    .txt2 {
+      display: none !important;  /* Forcefully hide */
+    }
+  }
+
+
+  .hap {
+    margin-top: -38px;
+    margin-bottom: 0;
+  }
+  
+  .hap {
+    margin-top: -38px;
+    margin-bottom: 0;
+  }
+  
+  /* Ensure Media Queries Work */
+  @media screen and (max-width: 980px) {
+    .hap {
+      margin-top: -20px !important;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .hap {
+      margin-top: -10px !important;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .hap {
+      margin-top: -5px !important;
+    }
+  }
+  
+
+
+  /* Adjusting padding and height for smaller screens */
+  @media (max-width: 768px) {
+    .pad {
+      padding-left: 2vw;
+      padding-right: 2vw;
+      height: 80vh; /* Adjusted height */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .pad {
+      padding-left: 3vw;
+      padding-right: 3vw;
+      height: 60vh; /* Reduced height for small screens */
+    }
+  }
+  
